@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color: #ccc;
+    --main-color: #05b4ff;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    text-align: center;
+    background: var(--bg-color);
+    color: var(--text-color);
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(bg.jpg);
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+.div1{
+    width: 100%;
+    padding-top: 100px;
+}
+.div1 h2{
+    color: #d9d4d4;
+    color: rgba(249, 249, 249, 0.407);
+    padding-right: 90px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(30%); 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #84697e;
+}
+
+#weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#weather-info h2 {
+    margin-bottom: 10px;
+}
+
+#weather-info p {
+    margin: 5px 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+ 
